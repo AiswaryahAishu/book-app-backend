@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 
 // ✅ Fix: CORS Configuration
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://book-app-frontend-3uyo.vercel.app'], // Removed trailing slash
+    origin: ['http://localhost:5173', 'https://book-app-frontend-mu-brown.vercel.app'], // Removed trailing slash
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true, // Keep only if using cookies/authentication
 }));
